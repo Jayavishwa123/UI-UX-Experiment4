@@ -1,31 +1,147 @@
-# UI-UX-Experiment4
+# UI-UX-Experiment1
 
 ## Aim:
-To design a low-fidelity wireframe for a mobile application called Daily Habit Tracker using Balsamiq, which helps users track daily habits, monitor progress, and improve productivity through a simple and user-friendly interface.
+To design and develop a Smart Diet Suggestion application that provides users with simple, quick, and personalized dietary recommendations based on their health condition, helping them make better food choices and improve overall well-being.
 ## Algorithm:
-* Start the Balsamiq application and create a new project.
+* Start the program.
 
-* Design the Welcome/Splash Screen with app name, tagline, and “Get Started” button.
+* Display the user interface with a dropdown menu for selecting a health condition.
 
-* Create the Login/Signup Screen with input fields for email and password along with login and signup options.
+* Provide options such as Fever, Diabetes, Blood Pressure, and Stomach Pain.
 
-* Design the Home/Dashboard Screen displaying today’s habits and progress bars.
+* Wait for the user to select a condition.
 
-* Add an “Add Habit” button to allow users to include new habits.
+* When the user clicks the “Get Diet Plan” button:
 
-* Create the Habit Listing Screen showing all habits with status (completed/pending).
+* Read the selected condition from the input field.
 
-* Include filter options (All, Completed, Pending) and checkboxes/toggles for marking completion.
+* Check the selected condition using conditional statements (if-else).
 
-* Design the Report/Final Screen with weekly progress summary and chart placeholder.
+* Based on the condition:
 
-* Arrange all screens properly, align elements, and connect screens using arrows to represent navigation flow.
+  * If Fever → Suggest light foods like soups, fruits, coconut water.
+
+  * If Diabetes → Suggest low sugar foods like vegetables and whole grains.
+
+  * If Blood Pressure → Suggest low-salt foods and fruits.
+
+  * If Stomach Pain → Suggest light and non-spicy foods.
+
+* Display the recommended foods (Eat) and restricted foods (Avoid) on the screen.
+
+* If no condition is selected, display an error message asking the user to choose a condition.
+
+* End the program.
 ## Output:
-<img width="495" height="825" alt="HT 1" src="https://github.com/user-attachments/assets/b5e4cfc7-cd6a-4c9c-a834-9886a9213ef1" />
-<img width="480" height="933" alt="HT 2" src="https://github.com/user-attachments/assets/222cd217-6087-4b91-b51a-023ec2856aa1" />
-<img width="483" height="932" alt="HT 3" src="https://github.com/user-attachments/assets/b9c6a685-d52a-4b11-a2d4-f00500556fec" />
-<img width="478" height="922" alt="HT 4" src="https://github.com/user-attachments/assets/78be3c20-867e-4554-b1c6-4a3398d7a811" />
-<img width="483" height="922" alt="HT 5" src="https://github.com/user-attachments/assets/04262fc2-7645-4aed-92ba-dc73056742fe" />
+<img width="1916" height="1123" alt="Screenshot 2026-03-19 161225" src="https://github.com/user-attachments/assets/60aab59c-a1ac-4a08-8895-0626b91cdae3" />
+<img width="1919" height="1131" alt="Screenshot 2026-03-19 161248" src="https://github.com/user-attachments/assets/496727bb-731d-4bda-90af-15c74e176224" />
+<img width="1916" height="1135" alt="Screenshot 2026-03-19 161317" src="https://github.com/user-attachments/assets/484b36ad-541e-4a68-a2b7-f0118fd05a01" />
 
-## Result:
-Thus, a low-fidelity wireframe for the Daily Habit Tracker App was successfully designed using Balsamiq. The wireframe includes all essential screens such as splash, login, dashboard, habit listing, and report screen, providing a clear structure of the application’s layout and user flow.
+# 🥗 Smart Diet Suggestion App – UX Design
+
+## 1. Solution Ideation
+
+### Problem
+Users often struggle to decide what to eat when they are sick or have specific health conditions. They lack quick, simple, and personalized diet guidance.
+
+### Ideation Method: Crazy 8s
+
+### Low-Fidelity Ideas
+
+1. Smart Diet Suggestion based on health condition  
+2. Daily Health Check (mood + energy input)  
+3. AI Chat for diet recommendations  
+4. Voice-based diet input  
+5. Hydration Reminder System  
+6. Medicine + Diet combined planner  
+7. Weekly diet planner view  
+8. Food to Eat / Avoid visual cards  
+
+---
+
+## 2. User Stories
+
+1. As a user, I want to get diet suggestions based on my condition, so that I can eat properly and recover faster.  
+
+2. As a patient, I want simple food recommendations, so that I don’t get confused about what to eat.  
+
+3. As a busy person, I want quick suggestions, so that I can save time.  
+
+4. As a health-conscious user, I want to avoid harmful foods, so that I can maintain my health.  
+
+5. As a beginner, I want an easy interface, so that I can use the app without difficulty.  
+
+---
+
+## 3. Scenario
+
+### Selected User Story:
+As a user, I want to get diet suggestions based on my condition, so that I can recover faster.
+
+### Scenario Description:
+Priya is a college student who is suffering from fever. She feels weak and confused about what food she should eat.
+
+She opens the Smart Diet Suggestion App on her phone while resting at home. She selects "Fever" from the list and clicks the "Get Diet Plan" button.
+
+Within seconds, the app displays foods she should eat (soups, fruits, coconut water) and foods to avoid (oily items). Priya feels relieved and confident that she is following the right diet.
+
+---
+
+## 4. Flow Diagram / Task Flow
+
+### Task: Getting Diet Suggestion
+
+Start  
+↓  
+Open App  
+↓  
+Select Health Condition  
+↓  
+Click "Get Diet Plan"  
+↓  
+System Processes Input  
+↓  
+Display Diet Suggestion  
+↓  
+End  
+
+---
+
+## 5. Information Architecture (IA)
+
+### Card Sorting (Open Type)
+
+Users grouped content into:
+- Home  
+- Diet Suggestions  
+- Health Tracker  
+- Reminders  
+- Profile  
+
+### Site Map
+
+Home  
+├── Diet Suggestions  
+│   ├── Select Condition  
+│   ├── View Diet Plan  
+│  
+├── Health Tracker  
+│   ├── Daily Check  
+│   ├── History  
+│  
+├── Reminders  
+│   ├── Water Reminder  
+│   ├── Medicine Reminder  
+│  
+├── Profile  
+│   ├── Personal Info  
+│   ├── Settings  
+
+---
+
+## ✅ Result
+
+- Developed a user-friendly diet suggestion system  
+- Provided quick and personalized food recommendations  
+- Reduced user confusion in choosing diet during illness  
+- Improved awareness of healthy eating habits
